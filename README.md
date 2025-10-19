@@ -28,15 +28,3 @@ You should see top recommended items printed for a sample user (user ID 1).
 
 - For production use with larger datasets, use a database-backed DataModel or stream updates — FileDataModel is only for small datasets and offline demos.
 
-recommender-system/
-│
-├── pom.xml
-├── data/
-│   └── sample_ratings.csv
-└── src/
-└── main/
-└── java/
-└── com/
-└── example/
-└── recommender/
-└── RecommenderApp.java
