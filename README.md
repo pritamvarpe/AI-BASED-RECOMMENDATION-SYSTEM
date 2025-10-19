@@ -1,3 +1,42 @@
+COMPANY: CODTECH IT SOLUTIONS
+NAME: Pritam Varpe
+INTERN ID: CT04DY2759
+DOMAIN: Java Programming
+DURATION: 4 WEEKS
+MENTOR: NEELA SANTOSH
+
+Description:
+
+For developing the Product Recommendation System using Apache Mahout, I utilized the following tools and technologies:
+
+1] IntelliJ IDEA
+
+Used as the primary Integrated Development Environment (IDE) for writing, testing, and debugging the recommendation system. Its code assistance and project management features made it easier to integrate Mahout libraries, manage Maven dependencies, and execute the recommender efficiently.
+
+2] Java Development Kit (JDK)
+
+Provided the necessary environment to compile and run the Java-based recommendation engine. Core Java libraries were used for file handling, data modeling, and executing the main logic of the recommender system.
+
+3] Apache Mahout
+
+The key library used to implement collaborative filtering algorithms. Mahout’s Taste API was leveraged to build a user-based recommender using Pearson Correlation Similarity and Nearest-Neighbor techniques to generate product recommendations based on user preferences.
+
+4] Maven
+
+Maven was used for dependency management and project configuration. It automatically handled the inclusion of Apache Mahout and SLF4J libraries, making the build process seamless and reproducible.
+
+5] CSV Data File
+
+A custom dataset (sample_ratings.csv) was created to simulate user-item interactions. The recommender system reads this data, computes similarities between users, and suggests top-rated products that a user might like.
+
+6] Git and GitHub
+
+Git was used for version control throughout the project. The source code and documentation were hosted on GitHub to ensure transparency, collaboration, and easy access for review or portfolio presentation.
+
+7] ChatGPT
+
+ChatGPT served as a technical guide throughout development. It provided assistance in structuring the project, writing optimized code, resolving dependency issues, and improving documentation clarity.
+
 # Java + Apache Mahout Recommendation Engine
 
 This project is a minimal Maven-based Java recommendation system using Apache Mahout's Taste API (user-based collaborative filtering). It includes sample data and a main program that builds a recommender and prints top-N recommendations for a sample user.
