@@ -1,8 +1,17 @@
+# Java + Apache Mahout Recommendation Engine
+
+This project is a minimal Maven-based Java recommendation system using Apache Mahout's Taste API (user-based collaborative filtering). It includes sample data and a main program that builds a recommender and prints top-N recommendations for a sample user.
+
 COMPANY: CODTECH IT SOLUTIONS
+
 NAME: Pritam Varpe
+
 INTERN ID: CT04DY2759
+
 DOMAIN: Java Programming
+
 DURATION: 4 WEEKS
+
 MENTOR: NEELA SANTOSH
 
 Description:
@@ -37,9 +46,7 @@ Git was used for version control throughout the project. The source code and doc
 
 ChatGPT served as a technical guide throughout development. It provided assistance in structuring the project, writing optimized code, resolving dependency issues, and improving documentation clarity.
 
-# Java + Apache Mahout Recommendation Engine
 
-This project is a minimal Maven-based Java recommendation system using Apache Mahout's Taste API (user-based collaborative filtering). It includes sample data and a main program that builds a recommender and prints top-N recommendations for a sample user.
 
 ## What this is
 A small example of a recommendation engine in Java using Apache Mahout (Taste). The engine loads sample user-item-rating data from a CSV file, builds a user-based recommender using Pearson similarity and nearest-neighbor neighborhood, and prints recommended items for a given user.
